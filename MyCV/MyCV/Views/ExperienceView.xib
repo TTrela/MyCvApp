@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExperienceView" customModule="MyCV" customModuleProvider="target">
+            <connections>
+                <outlet property="aboutHeaderlabel" destination="PCJ-yY-Mgr" id="5mf-V5-7UL"/>
+                <outlet property="aboutLabel" destination="U5Y-VG-yS2" id="5dt-Up-1Se"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="V3R-9v-SOf"/>
+                <outlet property="responsibilityHeaderLabel" destination="yZK-Li-Qry" id="fe8-rm-sP4"/>
+                <outlet property="responsibilityLabel" destination="BgS-41-0dX" id="UkP-3U-Rtn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="633" height="134"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCJ-yY-Mgr">
+                    <rect key="frame" x="0.0" y="0.0" width="633" height="20.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5Y-VG-yS2">
+                    <rect key="frame" x="0.0" y="20.5" width="633" height="40.5"/>
+                    <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus.</string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESPONSIBILITIES:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZK-Li-Qry">
+                    <rect key="frame" x="0.0" y="73" width="633" height="20.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgS-41-0dX">
+                    <rect key="frame" x="0.0" y="93.5" width="633" height="40.5"/>
+                    <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus.</string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="BgS-41-0dX" firstAttribute="top" secondItem="yZK-Li-Qry" secondAttribute="bottom" id="9J7-1m-0Tv"/>
+                <constraint firstItem="PCJ-yY-Mgr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DXi-qO-usx"/>
+                <constraint firstAttribute="trailing" secondItem="yZK-Li-Qry" secondAttribute="trailing" id="Gfq-Ra-pRs"/>
+                <constraint firstItem="yZK-Li-Qry" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Km5-tv-AS8"/>
+                <constraint firstItem="BgS-41-0dX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qzw-rw-URn"/>
+                <constraint firstItem="PCJ-yY-Mgr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RR9-Ao-qys"/>
+                <constraint firstItem="U5Y-VG-yS2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XNX-7g-xWC"/>
+                <constraint firstAttribute="trailing" secondItem="PCJ-yY-Mgr" secondAttribute="trailing" id="aja-kh-k07"/>
+                <constraint firstItem="U5Y-VG-yS2" firstAttribute="top" secondItem="PCJ-yY-Mgr" secondAttribute="bottom" id="cE9-Jv-umG"/>
+                <constraint firstAttribute="bottom" secondItem="BgS-41-0dX" secondAttribute="bottom" id="eTi-O1-as5"/>
+                <constraint firstAttribute="trailing" secondItem="U5Y-VG-yS2" secondAttribute="trailing" id="ldK-66-VUz"/>
+                <constraint firstItem="yZK-Li-Qry" firstAttribute="top" secondItem="U5Y-VG-yS2" secondAttribute="bottom" constant="12" id="oiq-mz-JIr"/>
+                <constraint firstAttribute="trailing" secondItem="BgS-41-0dX" secondAttribute="trailing" id="xMI-tY-LGg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="277.536231884058" y="-378.34821428571428"/>
+        </view>
+    </objects>
+</document>

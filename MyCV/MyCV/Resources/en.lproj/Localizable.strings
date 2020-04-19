@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  MyCV
+
+  Created by Tomasz Trela on 19/04/2020.
+  Copyright © 2020 GAZ. All rights reserved.
+*/
+
+// COMMON
+"PresentDate_Text" = "Present";
+
+// BUTTONS
+"RetryButton_Title" = "Retry";
+
+// ERROR MESSAGES
+"NoInternetError_Message" = "There is no internet connection";
+"UnknownError_Message" = "An unknown error has occurred";
+
+// MAIN SCREEN
+"EducationSection_Title" = "Education";
+"WorkExperienceSection_Title" = "Work experience";
+"OwnProjectsSection_Title" = "Own projects";
+"SkillsSection_Title" = "Skills";
+"CoursesSection_Title" = "Courses";
+"ItemsCount_Suffix" = "items";
+
+// EDUCATION VIEW
+"SubjectHeader_Text" = "SUBJECT:";
+"FacultyHeader_Text" = "FACULTY:";
+
+// EXPERIENCE VIEW
+"AboutHeader_Text" = "ABOUT:";
+"ResponsibilitiesHeader_Text" = "RESPONSIBILITIES:";
